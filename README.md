@@ -11,12 +11,12 @@ Get ready to explore IoT, microcontrollers, sensors, and networking – and walk
 Here’s what we’ll cover:  
 
 - **Introduction to IoT** → What IoT is, its real-world applications, and future opportunities 🌐  
-- **Microcontrollers Deep Dive** → ESP32 vs Arduino: features, differences, and when to use which  
-- **Basic Sensors & Actuators** → Hands-on with temperature sensors, buzzers, and how to integrate them  
-- **Networking Protocols** → Learn about **UDP** (core focus), with an overview of TCP  
+- **Basic Sensors & Actuators** → What they do, how and when to use them
 - **Arduino IDE Setup** → Installing and programming ESP modules using Arduino IDE  
-- **Multiplexers (MUX)** → Crash course on how MUX works and its use in hardware projects  
-- **Networking Basics** → Ports, IP addresses, sockets, and how devices talk to each other 🌍  
+- **Networking Basics** → Ports, IP addresses, sockets, and how devices talk to each other 🌍
+- **Networking Protocols** → Learn about **UDP** (core focus), with an overview of TCP
+- **Hands on Circuit Building** → Teaching you how to build hardware circuits
+- **Code Walkthroughs** → Learn the logic behind the programs for the joystick 
 
 
 ## 💻 Installation & Setup Guide  
