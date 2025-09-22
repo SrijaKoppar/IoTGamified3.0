@@ -81,3 +81,9 @@ For **networking (socket – already included in Python, but just in case):**
 pip install sockets
 ```
 
+Verify installation:  
+
+```bash
+python -m pip show vgamepad
+
+---
