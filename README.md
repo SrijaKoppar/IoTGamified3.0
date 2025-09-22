@@ -85,5 +85,3 @@ Verify installation:
 
 ```bash
 python -m pip show vgamepad
-
----
