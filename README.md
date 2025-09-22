@@ -13,7 +13,6 @@ Here’s what we’ll cover:
 - **Introduction to IoT** → What IoT is, its real-world applications, and future opportunities 🌐  
 - **Microcontrollers Deep Dive** → ESP32 vs Arduino: features, differences, and when to use which  
 - **Basic Sensors & Actuators** → Hands-on with temperature sensors, buzzers, and how to integrate them  
-- **Virtual Circuits on Wokwi** → Build and test circuits online before hardware deployment 👾  
 - **Networking Protocols** → Learn about **UDP** (core focus), with an overview of TCP  
 - **Arduino IDE Setup** → Installing and programming ESP modules using Arduino IDE  
 - **Multiplexers (MUX)** → Crash course on how MUX works and its use in hardware projects  
