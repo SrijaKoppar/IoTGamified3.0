@@ -4,11 +4,11 @@
 // UDP since its fast and ideal for gaming applications not extremely reliable but the next packet comming right after so doesnt matter much
 
   
-const char *SSID = "keios";   // WIFI NAME
-const char *PASS = "";        // WIFI PWD
+const char *SSID = "YOUR WIFI_NAME";   // WIFI NAME
+const char *PASS = "YOUR WIFI_PASSWORD";        // WIFI PWD
 
 const uint16_t port = 5555;   // Port on recieving device, can be any value bw 1024–65535 // 
-const char *host = "192.168.217.81";  // ip or dns // get this for the wifi by 'ipconfig' on the recieving machine
+const char *host = "YOUR IP_ADDRESS";  // ip or dns // get this for the wifi by 'ipconfig' on the recieving machine
 
 WiFiUDP Udp;                  // initialise WIFIUPD class
 
@@ -124,4 +124,5 @@ void loop() {
     Udp.endPacket();
     msgToSend[0] = '\0';		// '/0' is the end of string char
     delay(20);
+
 }
