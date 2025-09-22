@@ -5,7 +5,6 @@ Welcome to **IOTGamified 3.0**, hosted by the **IOTHINC Club of VIT Vellore**! �
 In this two-day hands-on workshop, you’ll learn how to design and build your very own **IoT-powered game controller** using **ESP modules** and a **Python-based UDP communication system**.  
 Get ready to explore IoT, microcontrollers, sensors, and networking – and walk away with a **fully functional DIY game controller!** 🌟  
 
----
 
 ## 📚 Workshop Roadmap  
 
@@ -20,7 +19,6 @@ Here’s what we’ll cover:
 - **Multiplexers (MUX)** → Crash course on how MUX works and its use in hardware projects  
 - **Networking Basics** → Ports, IP addresses, sockets, and how devices talk to each other 🌍  
 
----
 
 ## 💻 Installation & Setup Guide  
 
@@ -36,7 +34,6 @@ Your main editor for ESP and Python scripts.
 2. Run the installer and follow on-screen steps.  
 3. Open VS Code to confirm installation.  
 
----
 
 ### ✅ 2. Install Python 3  
 Required for UDP communication and game controller simulation.  
@@ -53,7 +50,6 @@ Required for UDP communication and game controller simulation.
 
 
 
----
 
 ### ✅ 3. Install Arduino IDE  
 Used to program the ESP module.  
@@ -65,7 +61,6 @@ Used to program the ESP module.
 2. Run setup and complete installation.  
 3. Open Arduino IDE to verify it launches.  
 
----
 
 ### ✅ 4. Install Required Python Libraries  
 
@@ -86,9 +81,7 @@ Verify installation:
 ```bash
 python -m pip show vgamepad
 ```
----
 
----
 
 ## 🎉 You’re All Set!  
 
@@ -103,7 +96,6 @@ Please ensure you bring a Windows device to fully participate in the gaming part
 
 Now you’re ready to dive in and start coding your **IoT game controller**! 🎮  
 
----
 
 ## 🚀 Final Note  
 
