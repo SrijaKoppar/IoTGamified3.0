@@ -51,7 +51,7 @@ def updateGamepad(name, buttonState, joyVal):       # Updates the button presses
 gamepad = {}                                        # Dictionary
 debgEnable = True                                   # Debug ON/OFF
 
-localIP = "192.168.217.81"                          # Common IP OF HOST AND DEVICE [get by 'ipconfig']
+localIP = "YOUR_IP_ADDRESS"                          # Common IP OF HOST AND DEVICE [get by 'ipconfig']
 localPort = 5555                                    # Common Port of Reciever listed on both ESP and System
 bufferSize = 1024                                   # Data buffer [Data read in one operation]
 
@@ -91,4 +91,5 @@ while True:
 
     addGamepad(inp_split[0])                                    # gamepad name from ESP 'MyName'    
     updateGamepad(inp_split[0], inp_split[1], inp_split[2])     # update gamepad function called with parametes -> name,buttonValues,joyValues
+
 
