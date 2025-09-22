@@ -47,10 +47,7 @@ Required for UDP communication and game controller simulation.
 3. Verify installation:  
    ```bash
    python --version
-
-
-
-
+   
 ### ✅ 3. Install Arduino IDE  
 Used to program the ESP module.  
 
