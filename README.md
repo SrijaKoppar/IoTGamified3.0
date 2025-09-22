@@ -72,13 +72,12 @@ Used to program the ESP module.
 Open **Command Prompt / Terminal** and run:  
 
 For **game controller simulation (vgamepad):**  
-```bash
-pip install vgamepad
-
----
-
+   ```bash
+   pip install vgamepad
+   ```
 For **networking (socket – already included in Python, but just in case):**  
 
 ```bash
 pip install sockets
+```
 
