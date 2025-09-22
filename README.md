@@ -88,6 +88,8 @@ python -m pip show vgamepad
 ```
 ---
 
+---
+
 ## 🎉 You’re All Set!  
 
 By the end of setup, you should have:  
@@ -95,6 +97,9 @@ By the end of setup, you should have:
 - ✔️ Python installed and working  
 - ✔️ Arduino IDE installed  
 - ✔️ vgamepad & socket libraries ready  
+
+⚠️ **Important Note:** The game controller simulation using `vgamepad` works **only on Windows laptops**.  
+Please ensure you bring a Windows device to fully participate in the gaming part of the workshop.  
 
 Now you’re ready to dive in and start coding your **IoT game controller**! 🎮  
 
@@ -108,4 +113,5 @@ By the end, you’ll not only understand IoT fundamentals but also walk away wit
 We can’t wait to see your innovative builds at **IOTGamified 3.0!** 🌟  
 
 ---
+
 
