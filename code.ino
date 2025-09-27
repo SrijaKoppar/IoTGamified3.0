@@ -13,9 +13,9 @@ WiFiUDP Udp;
 int JXRead = 13;    // D7
 int JYRead = 14;    // D5
 const int bUP    = 12;  // D6
-const int bDOWN  = 0;  // D3
-const int bLEFT  = 2;  // D4
-const int bRIGHT = 4;  // D2
+const int bDOWN  = 5;  // D3
+const int bLEFT  = 4;  // D4
+const int bRIGHT = 16;  // D2
 
 float joyX, joyY;
 float joyXZeroOffset, joyYZeroOffset;
@@ -99,3 +99,4 @@ void loop() {
 
   delay(1000); // small pause
 }
+
