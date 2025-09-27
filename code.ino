@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>    // include files for ESP32
 #include <WiFiUdp.h>        // UDP is the wireless data transmission protocol used
 
-// UDP since its fast and ideal for gaming applications not extremely reliable but the next packet comming right after so doesnt matter much
+// UDP since its fast and ideal for gaming applications not extremely reliable but the next packet coming right after so doesnt matter much
 
   
 const char *SSID = "YOUR WIFI_NAME";   // WIFI NAME
@@ -126,4 +126,5 @@ void loop() {
     delay(20);
 
 }
+
 
