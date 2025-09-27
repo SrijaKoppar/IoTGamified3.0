@@ -12,14 +12,14 @@ const char *host = "YOUR IP_ADDRESS";  // ip or dns // get this for the wifi by 
 
 WiFiUDP Udp;                  // initialise WIFIUPD class
 
-int JXRead = D7;              // MUX S0
-int JYRead = D5;              // MUX S0'
+int JXRead = 7;              // MUX S0
+int JYRead = 5;              // MUX S0'
 float joyX, joyY;             // Joystick inputs X and Y axis
 float joyXZeroOffset, joyYZeroOffset;   // For calibrating (error evaluation)
-const int bUP = D6;           // UP button    Input
-const int bDOWN = D3;         // DOWN button  Input
-const int bLEFT = D4;         // LEFT  button Input
-const int bRIGHT = D2;        // RIGHT button Input
+const int bUP = 6;           // UP button    Input
+const int bDOWN = 3;         // DOWN button  Input
+const int bLEFT = 4;         // LEFT  button Input
+const int bRIGHT = 2;        // RIGHT button Input
 
 bool buttonState[] = { false, false, false, false };  //UP, DOWN , LEFT , RIGHT // Initial values of the inputs from the buttons
 
@@ -126,3 +126,4 @@ void loop() {
     delay(20);
 
 }
+
